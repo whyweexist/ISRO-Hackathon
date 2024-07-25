@@ -76,9 +76,9 @@ formatting slightly modified to be read into *pandas*.
 During initial testing, we also used the [Salamunićcar LU78287GT
 catalogue][sala cat].
 
-### Running DeepMoon
+### Running Navgati
 
-Each stage of DeepMoon has a corresponding script: `run_input_data_gen.py` for
+Each stage of Navgati has a corresponding script: `run_input_data_gen.py` for
 generating input data, `run_model_training.py` to build and train the convnet, 
 and `run_get_unique_craters.py` to validate predictions and generate a crater
 atlas.  User-defined parameters, and instructions on on how to use each script,
