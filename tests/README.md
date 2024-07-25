@@ -1,8 +1,8 @@
-# DeepMoon Test Suite
+# Navgati Test Suite
 
 ## Dependences
 
-Running the DeepMoon test suite requires the following packages (in addition to
+Running the Navgati test suite requires the following packages (in addition to
 those required by DeepMoon itself):
 
 - [pytest](https://pypi.python.org/pypi/pytest) >= 3.11
