@@ -1,18 +1,13 @@
-# DeepMoon - Lunar Crater Counting Through Deep Learning
-Center for Planetary Sciences / Department of Astronomy & Astrophysics / Canadian Institute for Theoretical Astrophysics
-University of Toronto
 
-DeepMoon is a TensorFlow-based pipeline for training a convolutional neural
+Navgati is a TensorFlow-based pipeline for training a convolutional neural
 network (CNN) to recognize craters on the Moon, and determine their positions and
-radii.  It is the companion repo to the paper 
-[Lunar Crater Identification via Deep Learning](https://arxiv.org/abs/1803.02192), which
-describes the motivation and development of the code, as well as results.
+radii.  
 
 ## Getting Started
 
 ### Overview
 
-The DeepMoon pipeline trains a neural net using data derived from a global
+The Navgati pipeline trains a neural net using data derived from a global
 digital elevation map (DEM) and catalogue of craters.  The code is divided into
 three parts.  The first generates a set images of the Moon randomly cropped
 from the DEM, with corresponding crater positions and radii.  The second
@@ -28,7 +23,7 @@ the second is a sample image taken from the web.
 
 ### Dependences
 
-DeepMoon requires the following packages to function:
+Navgati requires the following packages to function:
 
 - [Python](https://www.python.org/) version 2.7 or 3.5+
 - [Cartopy](http://scitools.org.uk/cartopy/) >= 0.14.2.  Cartopy itself has a
@@ -103,25 +98,6 @@ See `docs/Using Zenodo Data.ipynb` for basic examples on generating sample
 datasets, loading a pre-trained CNN and using it to make predictions on
 samples.
 
-## Authors
-
-* **Ari Silburt** - convnet architecture, crater extraction and post-processing
-  [silburt](https://github.com/silburt)
-* **Charles Zhu** - input image generation, data ingestion and post-processing
-  [cczhu](https://github.com/cczhu)
-
-### Contributors
-
-* Mohamad Ali-Dib - [malidib](https://github.com/malidib/)
-* Kristen Menou - [kmenou](https://www.kaggle.com/kmenou)
-* Alan Jackson
-
-## License
-
-Copyright 2018 Ari Silburt, Charles Zhu and contributors.
-
-DeepMoon is free software made available under the MIT License. For details see
-the LICENSE.md file.
 
 [lola dem]: https://astrogeology.usgs.gov/search/map/Moon/LRO/LOLA/Lunar_LRO_LrocKaguya_DEMmerge_60N60S_512ppd
 [lroc cat]: http://wms.lroc.asu.edu/lroc/rdr_product_select?filter%5Btext%5D=&filter%5Blat%5D=&filter%5Blon%5D=&filter%5Brad%5D=&filter%5Bwest%5D=&filter%5Beast%5D=&filter%5Bsouth%5D=&filter%5Bnorth%5D=&filter%5Btopographic%5D=either&filter%5Bprefix%5D%5B%5DSHAPEFILE&show_thumbs=0&per_page=100&commit=Search
